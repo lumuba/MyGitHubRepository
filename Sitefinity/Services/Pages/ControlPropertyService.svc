@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="Telerik.Sitefinity.Modules.Pages.Web.Services.ControlPropertyService" 
+    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory" %>

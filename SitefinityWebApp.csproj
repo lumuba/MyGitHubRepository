@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E598CFC-83B2-494A-A97F-32EB24D797C6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SitefinityWebApp</RootNamespace>
+    <AssemblyName>SitefinityWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SilverlightApplicationList>
+    </SilverlightApplicationList>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;STANDARD;PRO;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\SitefinityWebApp.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Pro|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;STANDARD;PRO;</DefineConstants>
+    <DocumentationFile>bin\SitefinityWebApp.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.20820.16598, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference Assemblies\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Sitefinity, Version=4.0.465.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model, Version=4.0.654.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Web.Design, Version=2010.1.309.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Web.UI, Version=2010.1.309.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Global\Layout.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Global\Reset.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\blank.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\classic-loader.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\classic-map.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancybox-x.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancybox-y.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancybox.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_close.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_loading.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_nav_left.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_nav_right.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_e.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_n.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_ne.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_nw.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_s.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_se.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_sw.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_shadow_w.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_title_left.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_title_main.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_title_over.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\fancy_title_right.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Images\sfPublicContent.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Archive.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Blogs.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Comments.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Document.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\DocumentGallery.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Events.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\fancybox.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Feed.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Forms.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\galleria.classic.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\GenericContent.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\ImageGallery.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\News.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Taxonomy.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\Video.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Themes\DefaultTheme\Styles\VideoGallery.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\ArchiveControl.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Blogs\DetailPostView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Blogs\MasterPostsView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Events\DetailsView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Events\MasterView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\FeedEmbedControl.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Forms\FormsControl.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\GenericContent\CommentsDetailsView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\GenericContent\CommentsMasterView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\GenericContent\DetailsView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\GenericContent\MasterView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\DetailsListView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\DocumentLink.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\MasterListDetailView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\MasterListView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\MasterTableDetailView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Documents\MasterTableView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Images\DetailSimpleView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Images\MasterThumbnailLightBoxView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Images\MasterThumbnailSimpleView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Images\MasterThumbnailStripView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Images\MasterThumbnailView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Videos\DetailLightBoxView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Videos\DetailSimpleView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Videos\MasterThumbnailLightBoxView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Videos\MasterThumbnailView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\Libraries\Videos\MediaPlayerControl.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\NavigationControl.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\News\DetailsView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\News\ListView.ascx" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\ControlTemplates\TaxonomyControl.ascx" />
+    <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
+    <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
+    <Content Include="Default.aspx" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Master\Default.master" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\DefaultTemplate\App_Master\HeaderThreeColumnsFooter.master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60876</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

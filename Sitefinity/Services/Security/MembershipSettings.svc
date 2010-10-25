@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="Telerik.Sitefinity.Security.Web.Services.MembershipSettings"
+    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory" %>

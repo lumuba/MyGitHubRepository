@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory"
+    Service="Telerik.Sitefinity.Services.Common.GenericItemsService, Telerik.Sitefinity"     
+%>
